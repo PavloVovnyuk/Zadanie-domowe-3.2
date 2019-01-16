@@ -1,0 +1,14 @@
+Klasa - to kontener na kod dla programu. Klasa jest szablonem w którym mo¿emy tworzyæ metody, obiekty...
+Obiekt - to konkretny ekzempla¿ klasy. Obiektowi mo¿emy nadaæ nazwe, oraz przepisaæ  ró¿ne wartoœci;
+Zmienna to - element do przechowywania danych w kodzie programu.
+Ka¿da zmienna musi mieæ okreœlony typ np. int, albo String.
+Je¿eli deklaracjê zmiennej poprzedzimy s³owem final, to wartoœæ tej zmiennej nie mo¿emy ju¹ zmieniæ.
+W klasie mog¹ siê znajdowaæ metody, zmienne i konstruktory.
+Konstruktory s¹ wywo³ywane przez operator new i s³u¿¹ do tworzenia nowych obiektów.
+Jeœli w klasie zdefiniowano chocia¿ jeden konstruktor w³asny to kompilator nie wygeneruje dla nas konstruktoru domyœlnego.
+Zak³adaj¹c, ¿e istnieje klasa Car, to przy zapisie
+ 
+
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  Car car2 = car1;
+
+car1 i car2 to dwie referencji wskazuj¹ce na ten sam objekt
